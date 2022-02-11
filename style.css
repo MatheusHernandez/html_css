@@ -1,0 +1,73 @@
+/* class é . e id é # e id>class em prioridade*/
+
+body {
+    background-color: rgb(39, 39, 39);
+    font-family: Verdana, Tahoma, sans-serif;
+    max-width: 600px;
+    margin: auto;
+}
+
+.perfil_image{
+    border: 5px solid black;
+    border-radius: 600px;
+    max-width:150px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+#title, .subtitle, .post_title{
+    color: blueviolet;
+}
+#title{
+    size: 10px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.post_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: oblique;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+a{
+    text-decoration: underline;
+    color: rgb(10, 10, 10);
+}
+
+.post{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(49, 49, 49);
+    padding: 10px;
+    border: 3px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    color: gray;
+}
+
+.post_content {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    align-content: center;
+}
+
+.post_image{
+    margin-bottom: 0;
+    max-width:500px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+    
+}
+.contact_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+.contact_list li a {
+    text-decoration: none;
+    
+}
