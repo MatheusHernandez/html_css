@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/MatheusHernandez/html_css#readme",
   "devDependencies": {
-    "mocha": "^9.2.2"
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2",
+    "sinon": "^13.0.1"
   }
 }
